@@ -1,10 +1,10 @@
 public void setup() 
 {
-  String[] lines = loadStrings("words.txt");
-  System.out.println("there are " + lines.length + " lines");
-  for (int i = 0 ; i < lines.length; i++) 
+  String[] words = {"beast", "dough", "happy", "question", "star", "three", "eagle", "try"};
+  System.out.println("there are " + words.length + " lines");
+  for (int i = 0 ; i < words.length; i++) 
   {
-    System.out.println(pigLatin(lines[i]));
+    System.out.println(pigLatin(words[i]));
   }
 }
 public void draw()
